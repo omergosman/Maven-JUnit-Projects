@@ -26,7 +26,7 @@ public class DepositAddition {
 		driver.findElement(By.linkText("Add Deposit")).click();
 
 		Thread.sleep(3000);
-		driver.findElement(By.xpath("//*[@id=\"account\"]/option[4]")).click();
+		driver.findElement(By.xpath("//*[@id=\"account\"]/option[5]")).click();
 			
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("//*[@id=\"description\"]")).sendKeys("Selenium Practice");
