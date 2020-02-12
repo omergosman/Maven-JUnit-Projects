@@ -2,7 +2,7 @@ package seleniumpractice;
 
 public class FirstCommit {
 	public void firstCommit() {
-		System.out.println("hello omer");
+		System.out.println("hello mister omer");
 	}
 
 }
