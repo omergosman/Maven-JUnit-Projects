@@ -33,6 +33,7 @@ public class PopUps {
 		
 		//System.out.println(driver.switchTo().alert().getText());
 		  driver.switchTo().alert().dismiss();
+		  System.out.println("hello bouka");
 		  Assert.assertEquals("the pop_up text doesn't match", Expected_POP_UP_TEXT, actual_pop_up_text);
 		  
 		// driver.switchTo().alert().accept();
